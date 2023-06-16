@@ -1,3 +1,5 @@
 <% provide(:title, "Edit User") %>
 
+<div data-controller="avatar" data-avatar-user-name-value="<%= @user.name %>" class="avatar"></div>
+
 <%= render "form" %>

@@ -1,5 +1,6 @@
   <% provide(:title, "Hello #{@user.name}") %>
 
+  <div data-controller="avatar" data-avatar-user-name-value="<%= @user.name %>" class="avatar"></div>
 
   <p>Email : <%= @user.email %></p>
   <p>Admin: <%= @user.admin ? 'true' : 'false' %></p>
